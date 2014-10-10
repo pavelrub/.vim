@@ -8,8 +8,10 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" Tomorrow-Theme colorscheme
-Plugin 'chriskempson/vim-tomorrow-theme'
+" Colorschemes
+Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plugin 'tomasr/molokai'
+Plugin 'morhetz/gruvbox'
 
 " Fugitive - git wrapper
 Plugin 'tpope/vim-fugitive'
@@ -19,6 +21,9 @@ Plugin 'tpope/vim-surround'
 
 " Navigation tree
 Plugin 'scrooloose/nerdtree'
+
+" Javascript indentation and syntax support
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
