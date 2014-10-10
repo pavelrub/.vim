@@ -17,6 +17,9 @@ Plugin 'tpope/vim-fugitive'
 " Surround plugin, for quoting/parenthesizing
 Plugin 'tpope/vim-surround'
 
+" Navigation tree
+Plugin 'scrooloose/nerdtree'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -57,3 +60,4 @@ set relativenumber
 set guioptions-=m  "menu bar
 set guioptions-=T  "toolbar
 set guioptions-=r  "scrollbar
+
