@@ -9,7 +9,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Tomorrow-Theme colorscheme
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plugin 'chriskempson/vim-tomorrow-theme'
 
 " Fugitive - git wrapper
 Plugin 'tpope/vim-fugitive'
